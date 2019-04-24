@@ -1,0 +1,82 @@
+head,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.1)),
+        url('img/chemistry1.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 450px;
+}
+
+#title {
+    font-size: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 250px;
+    text-align: center;
+    color: white;
+}
+
+#subtitle {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#bs-example-navbar-collapse-1 > ul > li.nav-item > a {
+    color: white;
+}
+
+body > nav > div.container-fluid > div.navbar-header > span {
+    color:white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 10px 60px;
+}
+
+#center {
+    text-align: center;
+}
+
+.sq {
+      background-color: white;
+      display: inline-block;
+      text-align: center;
+      box-shadow: 6px 6px gray;
+      margin: 30px;
+      padding: 40px 0px;
+      transition: opacity 2s;
+      transition-timing-function: ease-in-out;
+}
+
+h3 {
+      margin: 55px auto;
+      opacity: 1;
+      transition: opacity 0.1s;
+}
+    
+.sq:hover h3 {
+      opacity: 0;
+}
+
+.sq:hover p {
+      opacity: 1;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+}
+

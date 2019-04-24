@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>jQuery Template</title>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    $(function(){
+      $('input').keyup(function(){
+        var userInput = $(this).val();
+        if(userInput == "password"){
+          $('img').fadeIn(1000);
+        }
+        else{
+          $('img').fadeOut(1000);
+        }
+      });
+    });
+  </script>
+  <style>
+    input {
+      font-size: 125%;
+    }
+    img {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>What password shall reveal the door to get out? Only the most obvious is what I’m talking about.</h1>
+  <input type="text"><BR>
+  <img src="http://fce-study.netdna-ssl.com/2/images/upload-flashcards/97/32/50/6973250_m.png">
+  
+</body>
+</html>
